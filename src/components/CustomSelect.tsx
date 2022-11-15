@@ -65,7 +65,7 @@ export default function CustomSelect(props: CustomSelectProps) {
     (props: number[]) => {
       const value = props
 
-      if (!value || Number(value[0]) === NaN) {
+      if (!value || Number.isNaN(value[0])) {
         return <></>
       }
 

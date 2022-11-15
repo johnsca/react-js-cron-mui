@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react'
-import {ButtonProps,SelectProps} from '@material-ui/core'
+import {ButtonProps,SelectProps} from '@mui/material'
 // External props
 
 export interface CronProps {
